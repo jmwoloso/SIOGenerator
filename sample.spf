@@ -1,0 +1,25 @@
+*
+* This is the specification file that is the input to the Synthetic IO engine.
+* The default spec file name is sample.spf
+* To run the Synthetic IO engine type "Syntheticio" at the command line.  
+* Any line in this file that begins with a " * " is treated as a comment line.
+* The structure of this file includes a header section and field section.
+* See the source file for a complete description of the allowed file format.
+* 
+sample.txt
+100000
+F
+C
+L
+*  This is the field specification section below.
+*  See the source file for a complete description.
+*  The abstract data types of INT, CHAR, and FLOAT support N permutations 
+*  Place holders in the framework allow for any number of higher level
+*  data abstractions.
+*  See source for programmatic details
+* 
+1,FIELD 1,FIELD 2,INTER,5,R,-100,100,2,2,1,1234
+2,FIELD 1,FIELD 2,RANDA,10,S,1,78,1,0,1,1
+3,FIELD 1,FIELD 2,RANDC,10,S,1,52,1,0,1,1
+4,FIELD 2,FIELD 3,FLTPF,10,S,0,0,0,5,1,2
+
